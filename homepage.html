@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Jhapp Notes</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+        integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css"
+        href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/de9f9de9ba.js" crossorigin="anonymous"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <style>
+        .navbar-brand {
+            margin: 0;
+            padding: 0;
+        }
+
+        .logo {
+            height: 50px;
+            padding-right: 15px;
+            padding-left: 5px;
+        }
+
+        .navbar-dark {
+            height: 65px;
+            padding-top: 5px;
+        }
+
+        #jumbotron {
+            background-image: url(Images/jumbotron.jpg);
+            height: 650px;
+            color: aliceblue;
+            text-align: center;
+        }
+
+        #s2 {
+            width: 33px;
+
+            margin-bottom: 5px;
+        }
+
+        body {
+            background-color: antiquewhite;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="about.html"><img src="Images/JN.png" class="img-responsive logo"></a>
+        </div>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-
+            controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="homepage.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Upload</a>
+                  </li> -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Branches
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="subjectscs.html">CSE</a>
+
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="subjectsit.html">IT</a>
+
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="subjectscsse.html">CSSE</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="subjectscsce.html">CSCE</a>
+
+
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" tabindex="-1"></a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="text1">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit" id="srch">Search</button>
+            </form>
+            <!--<form class="navbar-form navbar-right form-inline my-2 my-lg-0" action="https://google.com/search" method="get" role="search">
+                <div class="form-group">
+                    <input type="hidden" name="q" value="site:homepage.html">
+                    <input type="search" name="q" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn btn-default hidden-xs btn btn-outline-success my-2 my-sm-0"><i class="fa fa-search"></i></button>
+            </form>-->
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
+        <div class="container"><br><br><br><br><br>
+            <h1 class="display-1">JHAPP NOTES</h1>
+            <p class="lead">Notes That save your Time</p><br><br>
+            <div class="form-group">
+                <!-- <button type="button" class="btn btn-dark" style = "width:5em;" href="http://localhost/php/TestProject/subjectscs.html">CSE</button>
+                            <button type="button" class="btn btn-dark" style = "width:5em;" href="http://localhost/php/TestProject/subjectsit.html">IT</button>
+                            <button type="button" class="btn btn-dark" style = "width:5em;" href="http://localhost/php/TestProject/subjectscsse.html">CSSE</button>
+                            <button type="button" class="btn btn-dark" style = "width:5em;" href="http://localhost/php/TestProject/subjectscsce.html">CSCE</button> -->
+
+                <a class="btn btn-dark" href="subjectscs.html" role="button" style="width:5em;">CSE</a>
+                <a class="btn btn-dark" href="subjectsit.html" role="button" style="width:5em;">IT</a>
+                <a class="btn btn-dark" href="subjectscsse.html" role="button" style="width:5em;">CSSE</a>
+                <a class="btn btn-dark" href="subjectscsce.html" role="button" style="width:5em;">CSCE</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron jumbotron-fluid" id="j1">
+        <div class="container">
+            <h1 class="display-4"></h1>
+            <h2>Positives of Using our Notes :- </h2>
+            <ul>
+                <li>To The Point Answers.</li>
+                <li>Our Codes Take Minimum Time And Space Complexity.</li>
+                <li>Easy to understand.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+
+        document.getElementById("srch").onclick = function () {
+            var text1 = document.getElementById("text1").value; console.log(text1);
+
+            switch (text1) {
+                case 'CSE': window.open('subjectscs.html', '_blank');
+
+                    break;
+                case 'IT': window.open('subjectsit.html', '_blank');
+                    break;
+                case 'CSSE': window.open('subjectscsse.html', '_blank');
+                    break;
+                case 'CSCE': window.open('subjectscsce.html', '_blank');
+                    break;
+                default: alert('Branch Not Found!');
+            }
+        }
+
+    </script>
+
+
+</body>
+
+</html>
